@@ -1,1 +1,4 @@
-<app-header></app-header>
+<app-header *ngIf="isShow"></app-header>
+<div class="body">
+  <router-outlet (activate)="showHideNav($event)"></router-outlet>
+</div>
