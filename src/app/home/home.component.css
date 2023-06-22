@@ -9,7 +9,7 @@ ul{
 ul li a {
   height: 23.5rem;
   width: 20rem;
-  border: 1px solid #e72929;
+  border: 1.5px solid #e7c2c2;
   border-radius: 1rem;
   margin: 0.5rem;
   display: flex;
@@ -33,4 +33,38 @@ li a:hover{
 }
 .favorite.not{
   color: grey;
+}
+.favorite:hover{
+  color: grey;
+}
+.favorite.not:hover{
+  color: #f60101;
+}
+.stars{
+  margin-bottom: .2rem;
+}
+.product-item-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.origins{
+  flex: 9;
+}
+.origins span{
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  display: inline-block;
+  font-size: .7rem;
+  color: grey;
+  margin-right: .3rem;
+}
+.cook-time{
+  font-size: .8rem;
+  flex: 3;
+  text-align: right;
+}
+.price{
+  color: #414141;
+  margin-top: .7rem;
 }

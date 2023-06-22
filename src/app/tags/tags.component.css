@@ -1,0 +1,22 @@
+div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div a{
+  background-color: #f0f0f0;
+  padding: .3rem 1rem;
+  margin: .2rem .15rem;
+  border-radius: 10rem;
+  font-weight: 700;
+  color: #000096;
+  display: flex;
+  justify-content: center;
+}
+div a:hover{
+  color: blue;
+  opacity: 0.9;
+}
+div a:active{
+  color: black;
+}
